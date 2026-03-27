@@ -11,6 +11,13 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             var nomeCorrentista1 = Console.ReadLine();
             Console.WriteLine("Nome da variavel: " + nomeCorrentista);
+
+            var dataAniversario = Convert.ToDateTime("13/03/1987");
+
+            double saldo = 100.0;
+            saldo = saldo - 10.0;
+            Console.WriteLine("Saldo atual: " + saldo);
+
         }
     }
 }
