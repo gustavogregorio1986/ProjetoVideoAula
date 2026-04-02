@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 {
@@ -25,10 +26,23 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             //string[] nomes1 = new string[2] { "Ray carneiro", "Fulano da Silva" };
 
-            const double Pi = 3.14;
-            double raio = 5.3;
-            double area = Pi * (raio * raio);
-            Console.WriteLine("O valor da area é: " + area);
+            //const double Pi = 3.14;
+            //double raio = 5.3;
+            //double area = Pi * (raio * raio);
+            //Console.WriteLine("O valor da area é: " + area);
+
+            //List<string> nomes = new List<string> { "Fulando da Silva","Beltrano da Silva"};
+
+            List<string> nomes = new List<string>();
+            nomes.Add("Fulando da Silva");
+            nomes.Add("Beltrano da Silva");
+            nomes.Add("Ray");
+
+            Console.WriteLine("Posição Inicial da lista: " + nomes[0] + " com tamanho de lista: " + nomes.Count);
+
+            bool existeNaLista = nomes.Contains("Ray");
+            Console.WriteLine("Existe na lista?: " + existeNaLista);
+
         }
     }
 }
