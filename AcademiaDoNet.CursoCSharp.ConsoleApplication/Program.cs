@@ -5,6 +5,17 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 {
     internal class Program
     {
+        enum DiasDaSemana
+        {
+            DomingoFeira = 0,
+            SegundaFeira = 1,
+            TercaFeira = 2,
+            QuartaFeira = 3,
+            QuintaFeira = 4,
+            SextaFeira = 5,
+            Sabado = 6
+        }
+
         static void Main(string[] args)
         {
             //var nomeCorrentista = "Ray carneiro";
@@ -42,6 +53,12 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             bool existeNaLista = nomes.Contains("Ray");
             Console.WriteLine("Existe na lista?: " + existeNaLista);
+
+            var diaDasemana = DiasDaSemana.DomingoFeira;
+            Console.WriteLine("Hoje é dia: " + diaDasemana);
+
+            int diasemana = (int)DiasDaSemana.DomingoFeira;
+            Console.WriteLine("Hoje é dia: " + diasemana);
 
         }
     }
