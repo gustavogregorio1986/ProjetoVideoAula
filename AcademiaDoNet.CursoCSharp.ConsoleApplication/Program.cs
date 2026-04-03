@@ -44,22 +44,28 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             //List<string> nomes = new List<string> { "Fulando da Silva","Beltrano da Silva"};
 
-            List<string> nomes = new List<string>();
-            nomes.Add("Fulando da Silva");
-            nomes.Add("Beltrano da Silva");
-            nomes.Add("Ray");
+            //List<string> nomes = new List<string>();
+            //nomes.Add("Fulando da Silva");
+            //nomes.Add("Beltrano da Silva");
+            //nomes.Add("Ray");
 
-            Console.WriteLine("Posição Inicial da lista: " + nomes[0] + " com tamanho de lista: " + nomes.Count);
+            //Console.WriteLine("Posição Inicial da lista: " + nomes[0] + " com tamanho de lista: " + nomes.Count);
 
-            bool existeNaLista = nomes.Contains("Ray");
-            Console.WriteLine("Existe na lista?: " + existeNaLista);
+            //bool existeNaLista = nomes.Contains("Ray");
+            //Console.WriteLine("Existe na lista?: " + existeNaLista);
 
-            var diaDasemana = DiasDaSemana.DomingoFeira;
-            Console.WriteLine("Hoje é dia: " + diaDasemana);
+            //var diaDasemana = DiasDaSemana.DomingoFeira;
+            //Console.WriteLine("Hoje é dia: " + diaDasemana);
 
-            int diasemana = (int)DiasDaSemana.DomingoFeira;
-            Console.WriteLine("Hoje é dia: " + diasemana);
+            //int diasemana = (int)DiasDaSemana.DomingoFeira;
+            //Console.WriteLine("Hoje é dia: " + diasemana);
 
+            int tamanho = 10;
+            for (int i = 0; i < tamanho; i++)
+            {
+                Console.WriteLine("Valor da variavel de i: " + i);
+
+            }
         }
     }
 }
