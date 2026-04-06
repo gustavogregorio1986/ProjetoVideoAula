@@ -60,11 +60,26 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             //int diasemana = (int)DiasDaSemana.DomingoFeira;
             //Console.WriteLine("Hoje é dia: " + diasemana);
 
-            int tamanho = 10;
-            for (int i = 0; i < tamanho; i++)
-            {
-                Console.WriteLine("Valor da variavel de i: " + i);
+            //int tamanho = 10;
+            //for (int i = 0; i < tamanho; i++)
+            //{
+            //    Console.WriteLine("Valor da variavel de i: " + i);
 
+            //}
+
+            double saldoConta = 100.0;
+            Console.WriteLine("Digite um valor para debitar da sua conta: ");
+            var debitar = Convert.ToDouble(Console.ReadLine());
+
+            saldoConta = saldoConta - debitar;
+
+            if(saldoConta > 0)
+            {
+                Console.WriteLine("Seu saldo é positivo. Ainda restam {0} em conta", saldoConta);
+            }
+            else
+            {
+                Console.WriteLine("Seu saldo é negativo");
             }
         }
     }
