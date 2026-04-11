@@ -82,14 +82,44 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             //    Console.WriteLine("Seu saldo é negativo");
             //}
 
-            List<string> nomes = new List<string> { "Ray Carneiro", "Pollyanna Carneiro", "Fernando mendes" };
+            //List<string> nomes = new List<string> { "Ray Carneiro", "Pollyanna Carneiro", "Fernando mendes" };
 
-            foreach (string item in nomes)
-            {
-                {
-                    Console.WriteLine("O nome da pessoa é: " + item);
-                }
+            //foreach (string item in nomes)
+            //{
+            //    {
+            //        Console.WriteLine("O nome da pessoa é: " + item);
+            //    }
+            //}
+
+            double saldoConta = 100.0;
+            Console.WriteLine("Digite um valor para debitar da sua conta: ");
+            var debitar = Convert.ToDouble(Console.ReadLine());
+
+            saldoConta = saldoConta - debitar;
+
+            switch (saldoConta) {
+                case 50.0:
+                    Console.WriteLine("Você depositou 50 da sua conta");
+                    break;
+                case 10.0:
+                    Console.WriteLine("Você depositoy 90 da sua conta");
+                    break;
+                default:
+                    Console.WriteLine("Você depoistou {0} da sua conta", debitar);
+                    break;
             }
+
+
+            //saldoConta = saldoConta - debitar;
+
+            //if(saldoConta > 0)
+            //{
+            //    Console.WriteLine("Seu saldo é positivo. Ainda {0} em conmta", saldoConta);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Seu saldo é negativo!");
+            //}
         }
     }
 }
