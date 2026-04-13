@@ -128,27 +128,34 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             pessoa1.NumeroContaCorrente = "010204";
 
 
-            Pessoa pessoa2 = new Pessoa()
-            {
-                Nome = "Pollyanna Carneiro",
-                CPF = "123456789",
-                NumeroContaCorrente = "010204"
+            //Pessoa pessoa2 = new Pessoa()
+            //{
+            //    Nome = "Pollyanna Carneiro",
+            //    CPF = "123456789",
+            //    NumeroContaCorrente = "010204"
 
-            };
+            //};
 
-            List<Pessoa> ListaDePessoas = new List<Pessoa>();
-            ListaDePessoas.Add(pessoa1);
-            ListaDePessoas.Add(pessoa2);
+            //List<Pessoa> ListaDePessoas = new List<Pessoa>();
+            //ListaDePessoas.Add(pessoa1);
+            //ListaDePessoas.Add(pessoa2);
 
-            foreach(var pessoa in ListaDePessoas)
-            {
-                Console.WriteLine("Nome: " + pessoa.Nome);
-                Console.WriteLine("CPF: " + pessoa.CPF);
-                Console.WriteLine("Número da Conta Corrente: " + pessoa.NumeroContaCorrente);
-                Console.WriteLine();
-            }
+            //foreach(var pessoa in ListaDePessoas)
+            //{
+            //    Console.WriteLine("Nome: " + pessoa.Nome);
+            //    Console.WriteLine("CPF: " + pessoa.CPF);
+            //    Console.WriteLine("Número da Conta Corrente: " + pessoa.NumeroContaCorrente);
+            //    Console.WriteLine();
+            //}
 
+            Console.WriteLine(pessoa1.EfetuarDeposito(50.0));
 
+            #region Região de deposito
+
+            double valorDeposito = 50.0;
+            Console.WriteLine("O saldo da vconta é de: " + pessoa1.EfetuarDeposito(valorDeposito));
+
+            #endregion
         }
     }
 }
