@@ -122,10 +122,10 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             //    Console.WriteLine("Seu saldo é negativo!");
             //}
 
-            Pessoa pessoa1 = new Pessoa();
-            pessoa1.Nome = "Ray Carneiro";
-            pessoa1.CPF = "123456789";
-            pessoa1.NumeroContaCorrente = "010204";
+            //Pessoa pessoa1 = new Pessoa();
+            //pessoa1.Nome = "Ray Carneiro";
+            //pessoa1.CPF = "123456789";
+            //pessoa1.NumeroContaCorrente = "010204";
 
 
             //Pessoa pessoa2 = new Pessoa()
@@ -148,14 +148,35 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             //    Console.WriteLine();
             //}
 
-            Console.WriteLine(pessoa1.EfetuarDeposito(50.0));
+            //Console.WriteLine(pessoa1.EfetuarDeposito(50.0));
 
-            #region Região de deposito
+            //#region Região de deposito
 
-            double valorDeposito = 50.0;
-            Console.WriteLine("O saldo da vconta é de: " + pessoa1.EfetuarDeposito(valorDeposito));
+            //double valorDeposito = 50.0;
+            //Console.WriteLine("O saldo da vconta é de: " + pessoa1.EfetuarDeposito(valorDeposito));
 
-            #endregion
+            //#endregion
+
+            //Console.WriteLine("Qual será o nome do seu pagamwento: ");
+            //string nomePagamento = Console.ReadLine();
+
+            //Console.WriteLine("Ola, " + nomePagamento);
+
+            Console.WriteLine("Qual será o nome do seu personagem: ");
+            string nomePersonagem = Console.ReadLine();
+
+            Console.WriteLine("Ola, " + nomePersonagem);
+
+            bool personagemView = true;
+
+            if (personagemView)
+            {
+                Console.WriteLine("O personagem está vivo");
+            }
+            else
+            {
+                Console.WriteLine("O personagem não está morto");
+            }
         }
     }
 }
