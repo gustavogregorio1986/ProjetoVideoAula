@@ -4,18 +4,18 @@ using System.Collections.Generic;
 
 namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 {
-    internal class Program
+    public class Program
     {
-        enum DiasDaSemana
-        {
-            DomingoFeira = 0,
-            SegundaFeira = 1,
-            TercaFeira = 2,
-            QuartaFeira = 3,
-            QuintaFeira = 4,
-            SextaFeira = 5,
-            Sabado = 6
-        }
+        //enum DiasDaSemana
+        //{
+        //    DomingoFeira = 0,
+        //    SegundaFeira = 1,
+        //    TercaFeira = 2,
+        //    QuartaFeira = 3,
+        //    QuintaFeira = 4,
+        //    SextaFeira = 5,
+        //    Sabado = 6
+        //}
 
         static void Main(string[] args)
         {
@@ -167,6 +167,8 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             Console.WriteLine("Ola, " + nomePersonagem);
 
+            OutroMetodo();
+
             bool personagemView = true;
 
             if (personagemView)
@@ -177,6 +179,11 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
             {
                 Console.WriteLine("O personagem não está morto");
             }
+        }
+
+        static void OutroMetodo()
+        {
+            Console.WriteLine();
         }
     }
 }
