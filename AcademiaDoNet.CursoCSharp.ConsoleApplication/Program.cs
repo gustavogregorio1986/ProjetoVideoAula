@@ -167,23 +167,37 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             Console.WriteLine("Ola, " + nomePersonagem);
 
-            OutroMetodo();
+            //OutroMetodo();
 
             bool personagemView = true;
+            bool estaEnvenenado = true;
 
             if (personagemView)
             {
                 Console.WriteLine("O personagem está vivo");
+                if (estaEnvenenado)
+                {
+                    Console.WriteLine("O perzonagem perdeu 1 ponto de vida.");
+                }
+                else
+                {
+                    Console.WriteLine("O personagem não está envenenado");
+                }
             }
-            else
-            {
-                Console.WriteLine("O personagem não está morto");
-            }
+
+            //if (personagemView)
+            //{
+            //    Console.WriteLine("O personagem está vivo");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("O personagem não está morto");
+            //}
         }
 
-        static void OutroMetodo()
-        {
-            Console.WriteLine();
-        }
+        //static void OutroMetodo()
+        //{
+        //    Console.WriteLine();
+        //}
     }
 }
