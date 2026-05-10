@@ -19,6 +19,33 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
         static void Main(string[] args)
         {
+
+            //Console.WriteLine("Qual será o nome do seu personagem: ");
+            //string nomePersonagem = Console.ReadLine();
+
+            //Console.WriteLine("Ola, " + nomePersonagem);
+
+            //bool personagemVivo = true;
+
+            int numeroA = 10;
+            int numeroB = 20;
+
+            //if(numeroA != 100)
+            //{
+            //    //numeroA é diferente de 100
+            //}
+            //else
+            //{
+            //    //numeroB é igual a 100
+            //}
+
+            //true => !true = false
+            //false => !false = true
+            if (!personagemVivo)
+            {
+                Console.WriteLine("O personagem não está mais vivo. ");
+            }
+
             //var nomeCorrentista = "Ray carneiro";
             //Console.WriteLine("Nome da variavel: " + nomeCorrentista);
 
@@ -162,28 +189,23 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             //Console.WriteLine("Ola, " + nomePagamento);
 
-            Console.WriteLine("Qual será o nome do seu personagem: ");
-            string nomePersonagem = Console.ReadLine();
-
-            Console.WriteLine("Ola, " + nomePersonagem);
-
             //OutroMetodo();
 
-            bool personagemView = true;
-            bool estaEnvenenado = true;
+            //bool personagemView = true;
+            //bool estaEnvenenado = true;
 
-            if (personagemView)
-            {
-                Console.WriteLine("O personagem está vivo");
-                if (estaEnvenenado)
-                {
-                    Console.WriteLine("O perzonagem perdeu 1 ponto de vida.");
-                }
-                else
-                {
-                    Console.WriteLine("O personagem não está envenenado");
-                }
-            }
+            //if (personagemView)
+            //{
+            //    Console.WriteLine("O personagem está vivo");
+            //    if (estaEnvenenado)
+            //    {
+            //        Console.WriteLine("O perzonagem perdeu 1 ponto de vida.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("O personagem não está envenenado");
+            //}
 
             //if (personagemView)
             //{
