@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="AcademiaDoNet.CursoCSharp.ConsoleApplication/AcademiaDoNet.CursoCSharp.ConsoleApplication.csproj" />
   <Project Path="AcademiaDoNet.CursoCSharp.ConsoleApplication2/AcademiaDoNet.CursoCSharp.ConsoleApplication2.csproj" />
+  <Project Path="AplicacaoTeste/AplicacaoTeste.csproj" Id="f7d9df51-27fa-4a0c-ade5-b4bae9e1894c" />
 </Solution>

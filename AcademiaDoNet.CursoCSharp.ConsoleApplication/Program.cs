@@ -27,8 +27,8 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             //bool personagemVivo = true;
 
-            int numeroA = 10;
-            int numeroB = 20;
+            //int numeroA = 10;
+            //int numeroB = 20;
 
             //if(numeroA != 100)
             //{
@@ -41,10 +41,10 @@ namespace AcademiaDoNet.CursoCSharp.ConsoleApplication
 
             //true => !true = false
             //false => !false = true
-            if (!personagemVivo)
-            {
-                Console.WriteLine("O personagem não está mais vivo. ");
-            }
+            //if (!personagemVivo)
+            //{
+            //    Console.WriteLine("O personagem não está mais vivo. ");
+            //}
 
             //var nomeCorrentista = "Ray carneiro";
             //Console.WriteLine("Nome da variavel: " + nomeCorrentista);
